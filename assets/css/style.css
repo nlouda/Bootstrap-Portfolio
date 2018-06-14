@@ -20,11 +20,63 @@
     background:white;
     position: relative;
     margin: 0 15% 0 15%;
+    overflow: auto;
+    
 }
 .h2 {
 color: #4aaaa5;
 padding:5px;
 border-bottom: 2px solid #ccc;
+}
+.btn-secondary{
+background-color: #4aaaa5;
+border-color:#4aaaa5;
+}
+.portfolio-item{
+    position: relative;
+    background:rgba(0, 0, 0, .5 );
+    margin-bottom:20px;
+    margin-top:20px;
+    width:45%;
+    float: left;
+    height:250px;
+}
+.portfolio-item:nth-of-type(odd){
+    float:right;
+}
+.portfolio-item h4{
+    background: #4aaaa5;
+    color:#fff;
+    text-align: center;
+    padding: 5% 0;
+    width:100%;
+    position: absolute;
+    bottom:20px;
+}
+#port1{
+    background-image: url("../images/port1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port2{
+    background-image: url("../images/port2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port3{
+    background-image: url("../images/port3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port4{
+    background-image: url("../images/port4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port5{
+    background-image: url("../images/port5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .footer{
     background-color: #777777;
