@@ -18,9 +18,11 @@
 .navbar-header{
     margin-left:5%;
 }
-.collapse.navbar-collapse{
-    margin-right:5%;
+.collapse.navbar-collapse {
+    margin-right: 14%;
+    margin-left: 14%;
 }
+
 .nav .navbar .navbar-expand-md .navbar-light .bg-light .sticky-top{
     background-color: lightgray;
 }
